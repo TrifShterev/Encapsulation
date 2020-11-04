@@ -12,8 +12,8 @@ namespace PizzaCalories
 
         public Dough(string flourType, string bakingTechnique, double weight)
         {
-            FlourType = flourType;
-            BakingTechnique = bakingTechnique;
+            FlourType = flourType.ToLower();
+            BakingTechnique = bakingTechnique.ToLower();
             Weight = weight;
         }
 
