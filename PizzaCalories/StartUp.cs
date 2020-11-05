@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 
 namespace PizzaCalories
 {
- public   class Program
+ public   class StartUp
     {
         static void Main(string[] args)
         {
